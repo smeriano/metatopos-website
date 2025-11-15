@@ -975,3 +975,9 @@ h1, h2, h3, h4, h5,
   color: #ffffff;
   text-decoration: underline;
 }
+
+.small-photo {
+  max-width: 50%;
+  margin: 0 auto;
+  display: block;
+}
