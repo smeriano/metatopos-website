@@ -99,10 +99,21 @@
     </section>
 
 
-      <!-- bottom-right template credit -->
-      <div class="template-credit">
-        Template by <a href="https://untree.co" target="_blank">Untree.co</a> (CC BY 3.0)
-      </div>
+    <!-- bottom-right last updated -->
+    <div class="template-credit">
+      <span id="last-modified"></span>
+    </div>
+
+    <script>
+      // Show the real last modification date of the page
+      const modified = new Date(document.lastModified);
+      const formatted = modified.toLocaleDateString("en-GB", {
+        day: "2-digit",
+        month: "short",
+        year: "numeric"
+      });
+      document.getElementById("last-modified").textContent = "Last updated: " + formatted;
+    </script>
 
 
       <div class="container-fluid site-section">
@@ -489,7 +500,7 @@
 
         <div class="row justify-content-center">
           <div class="col-md-12 text-center py-5">
-            <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Designed with love by <a href="https://untree.co">Untree.co</a> Distributed By <a href="https://themewagon.com">ThemeWagon</a><!-- License information: https://untree.co/license/ -->
+            <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Original templated designed with love by <a href="https://untree.co">Untree.co</a> Distributed By <a href="https://themewagon.com">ThemeWagon</a><!-- License information: https://untree.co/license/ -->
             </p>
           </div>
         </div>
