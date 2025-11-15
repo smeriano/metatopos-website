@@ -977,20 +977,8 @@ h1, h2, h3, h4, h5,
 }
 
 .small-photo {
-  max-width: 0%;
+  max-width: 50%;
   margin: 0 auto;
   display: block;
 }
 
-/* Make sure header + social icons sit on top on small screens */
-@media (max-width: 991.98px) {
-  .header-bar {
-    position: fixed;
-    z-index: 2100; /* higher than .site-mobile-menu (2000) */
-  }
-
-  .header-bar ul.social {
-    position: relative;
-    z-index: 2101;
-  }
-}
