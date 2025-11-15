@@ -956,3 +956,22 @@ h1, h2, h3, h4, h5,
 .slide-one-item.home-slider:hover .owl-nav, .slide-one-item.home-slider:focus .owl-nav, .slide-one-item.home-slider:active .owl-nav {
   opacity: 10;
   visibility: visible; }
+
+
+  .template-credit {
+  position: fixed;
+  bottom: 10px;
+  right: 15px;
+  font-size: 11px;
+  opacity: 0.6;
+  color: #ffffff;
+  background: rgba(0,0,0,0.35);
+  padding: 4px 8px;
+  border-radius: 4px;
+  z-index: 9999;
+}
+
+.template-credit a {
+  color: #ffffff;
+  text-decoration: underline;
+}
