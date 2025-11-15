@@ -981,3 +981,14 @@ h1, h2, h3, h4, h5,
   margin: 0 auto;
   display: block;
 }
+
+
+/* Force desktop main menu to show also on mobile, and hide the mobile drawer */
+@media (max-width: 991.98px) {
+  .header-bar .main-menu {
+    display: block !important;
+  }
+  .site-mobile-menu {
+    display: none !important;
+  }
+}
